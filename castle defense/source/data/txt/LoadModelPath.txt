@@ -1,0 +1,12 @@
+player/player2.mv1
+enemys/npc.x
+enemys/Spider_3.mv1
+enemys/attack_divebomb.mv1
+enemys/attack_fireball.mv1
+enemys/attack_front.mv1
+enemys/death.mv1
+enemys/idle.mv1
+enemys/intro.mv1
+enemys/walk.mv1
+map/Castle.mv1
+scene/skydome/dome321.X

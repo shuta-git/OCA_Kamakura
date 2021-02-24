@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\PLAYER">
+      <UniqueIdentifier>{1c1a8dc2-09e1-4e0a-9615-4150eaeeea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game.cpp">
+      <UniqueIdentifier>{799c3522-c497-4faa-8ff5-5a23edda47e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PLAYER">
+      <UniqueIdentifier>{8f99da3f-8a87-489f-892a-4dd53813cf25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game.h">
+      <UniqueIdentifier>{6ddf90a9-bdb2-4a34-a955-0925709549bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MAP">
+      <UniqueIdentifier>{9f854240-2f81-43eb-addc-2207dfb26cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Screen">
+      <UniqueIdentifier>{75060ea8-4009-419d-a847-3c3d89ffa65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Obj">
+      <UniqueIdentifier>{8c3e1250-168c-4546-bdc0-d853829c257f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Obj">
+      <UniqueIdentifier>{7981e0be-6be5-4847-b5cd-8cb080a6f4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{7b3a75c7-6107-443d-9a71-9d8e988bab97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Enemy">
+      <UniqueIdentifier>{a3768961-05cc-46db-a94f-60e664c26883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Screen">
+      <UniqueIdentifier>{3e6258fc-7fef-4c31-b052-510b26271cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Screen\Obj">
+      <UniqueIdentifier>{646aeb80-7ad7-4e85-adab-359baa4f16f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Screen\Chara">
+      <UniqueIdentifier>{ddce8992-cccc-4a91-a2bf-7f3bd0152cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Screen\Tutorial">
+      <UniqueIdentifier>{2610e7fc-23a6-442f-890d-0efb7999ad58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain.cpp">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyInput.cpp">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>ソース ファイル\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseObj.cpp">
+      <Filter>ソース ファイル\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pos.cpp">
+      <Filter>ソース ファイル\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fiona.cpp">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Musya.cpp">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ninin.cpp">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cursor.cpp">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hit.cpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StartScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClearScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerBase.cpp">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OperationScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScreenBase.cpp">
+      <Filter>ソース ファイル\Screen\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PauseScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RankingScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScoreScreen.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>ソース ファイル\Screen\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharaOperation.cpp">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FionaOperationScreen.cpp">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MusyaOperation.cpp">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NininOperation.cpp">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameOver.cpp">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharaOperationBase.cpp">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Fiona.h">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Musya.h">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerBase.h">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ninin.h">
+      <Filter>ソース ファイル\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinMain.h">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyInput.h">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain.h">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>ソース ファイル\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pos.h">
+      <Filter>ソース ファイル\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cursor.h">
+      <Filter>ソース ファイル\Game.cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseObj.h">
+      <Filter>ソース ファイル\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ClearScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameOver.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StartScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OperationScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>ソース ファイル\Screen\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScreenBase.h">
+      <Filter>ソース ファイル\Screen\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PauseScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RankingScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScoreScreen.h">
+      <Filter>ソース ファイル\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CharaOperation.h">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FionaOperationScreen.h">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MusyaOperation.h">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NininOperation.h">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CharaOperationBase.h">
+      <Filter>ソース ファイル\Screen\Chara</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

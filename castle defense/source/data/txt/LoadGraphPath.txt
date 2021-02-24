@@ -1,0 +1,14 @@
+player/Texture/kami01_tekusutya.jpg
+player/Texture/kao_tekusutya1.jpg
+player/Texture/nunoyoroi.jpg
+enemys/textures/haar_detail_NRM.jpg
+enemys/textures/Spinnen_Bein_tex_COLOR_.jpg
+enemys/textures/Spinnen_Bein_tex_2.jpg
+enemys/textures/SH3.png
+enemys/textures/gargoyle_low_gargoyle_body_mat_BaseColor.png
+map/Texture/Castle Exterior Texture.jpg
+map/Texture/Towers Doors and Windows Texture.jpg
+map/Texture/Ground and Fountain Texture.jpg
+map/Texture/Castle Interior Texture.jpg
+scene/UI/LifeGauge.png
+scene/title/title2_1.png

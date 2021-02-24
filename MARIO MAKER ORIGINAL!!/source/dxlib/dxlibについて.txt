@@ -1,0 +1,9 @@
+１、下記のサイトに移動
+　　https://dxlib.xsrv.jp/dxdload.html
+
+２、下記のファイルをダウンロード
+　　ＤＸライブラリ Windows版 VisualStudio( C++ )用(Ver3.22c)(zip圧縮形式(約196MB))
+
+３、「プリジェクトに追加すべきファイル_VC用」の中身をコピー
+
+４、「dxlib」ファイルに貼り付け

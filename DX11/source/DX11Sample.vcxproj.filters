@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{204647bc-2d76-4fb8-828a-200ab585bda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\DirectX11">
+      <UniqueIdentifier>{469dcb58-a35b-473f-ad8f-73d08b693864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダー ファイル">
+      <UniqueIdentifier>{e6e5f081-38c7-463e-b755-f0bc283cb5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenFBX">
+      <UniqueIdentifier>{2d075f10-f782-4f8f-9cb8-40ff0ce79fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル">
+      <UniqueIdentifier>{cc92e925-8f46-4140-82e1-bcfac77579a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System">
+      <UniqueIdentifier>{f50f2477-1e51-4584-917d-9839406423f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game">
+      <UniqueIdentifier>{c6387995-5adc-47ae-a6f3-0cba0d51d615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game\Player">
+      <UniqueIdentifier>{2e72026b-a22b-4ed1-82a6-5b6f32e467cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game\Map">
+      <UniqueIdentifier>{94c0be14-d836-4a5c-b58d-2a062ebc6ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game\Enemy">
+      <UniqueIdentifier>{8db680dd-8c33-4906-8810-29781836e6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game\Camera">
+      <UniqueIdentifier>{9b11bb10-f8a5-47f2-85f1-a21763179646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\GPU">
+      <UniqueIdentifier>{9fd7ef52-ffe3-4dff-95ba-6e91ad669370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Math">
+      <UniqueIdentifier>{36b67a2f-3ee1-407f-b0e0-4bf39b36a319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Model">
+      <UniqueIdentifier>{0e0f70f8-856e-4477-aae5-885eb4525bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Collider">
+      <UniqueIdentifier>{0b897cfa-9a95-47c0-9893-003b0cc813a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\Game\Render">
+      <UniqueIdentifier>{b9b088a2-70cd-4e93-b58c-85132fa5b316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\3DGraphics">
+      <UniqueIdentifier>{43ec11c4-509b-4211-b401-96f50a042252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\3DGraphics\Pass">
+      <UniqueIdentifier>{7e0b6c54-a021-475e-8015-716c8ef68945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Base">
+      <UniqueIdentifier>{f991ffa0-a6e3-497e-9bf5-509d11cfffbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Render">
+      <UniqueIdentifier>{a5a2c446-c486-48b3-989e-dedb8d9c39d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Main">
+      <UniqueIdentifier>{be88782d-2db9-4448-9de0-1f6a8f9e8b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Model\FBX">
+      <UniqueIdentifier>{aa579212-ce5d-4a9f-bd2c-1088bb227006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Model\MQO">
+      <UniqueIdentifier>{3744e439-1f94-4ada-a864-535cf451e50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\gmTypedef">
+      <UniqueIdentifier>{1ddca371-d2e2-44e8-b048-bba051ad3c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Handle">
+      <UniqueIdentifier>{f0e45860-37c4-498b-a7f1-f13d5f25eeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\FileWatcher">
+      <UniqueIdentifier>{919b1430-3b2a-47dd-a66b-ced212793e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Fps">
+      <UniqueIdentifier>{ef440520-2b53-447e-9a88-61d14d4228c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソリューションファイル\System\Text">
+      <UniqueIdentifier>{0102e31d-eb72-44c7-8eb7-908873b37d29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data\shader\shader.h">
+      <Filter>シェーダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="data\shader\blur.h">
+      <Filter>シェーダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraTitle.h">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraDebug.h">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraPlayer.h">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>ソリューションファイル\System\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precompile.h">
+      <Filter>ソリューションファイル\System\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyBase.h">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyManager.h">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pumpkin.h">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>ソリューションファイル\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>ソリューションファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerBase.h">
+      <Filter>ソリューションファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScene.h">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadScene.h">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneController.h">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneMain.h">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TitleScene.h">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pass.h">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PassFilterHDR.h">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PassGbuffer.h">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PassLighting.h">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PassShadow.h">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FilterGlare.h">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GBuffer.h">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shadowmap.h">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base.h">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollisionBase.h">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ManagerBase.h">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BoxCollider.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CapsuleCollider.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collider.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColliderResource.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollisionDetection.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SphereCollider.h">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpuBuffer.h">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpuCommand.h">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpuInputLayout.h">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpuShader.h">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpuTexture.h">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>ソリューションファイル\System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix.h">
+      <Filter>ソリューションファイル\System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>ソリューションファイル\System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGuiFBX.h">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshFBX.h">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelFBX.h">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelMQO.h">
+      <Filter>ソリューションファイル\System\Model\MQO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResourceManager.h">
+      <Filter>ソリューションファイル\System\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FPSCounter.h">
+      <Filter>ソリューションファイル\System\Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Primitive.h">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemRender.h">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\OpenFBX\src\miniz.h">
+      <Filter>OpenFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\OpenFBX\src\ofbx.h">
+      <Filter>OpenFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\imgui\examples\imgui_impl_dx11.h">
+      <Filter>imgui\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\imgui\examples\imgui_impl_win32.h">
+      <Filter>imgui\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSource\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gmTypedef.h">
+      <Filter>ソリューションファイル\System\gmTypedef</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Handle.h">
+      <Filter>ソリューションファイル\System\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileWatcher.h">
+      <Filter>ソリューションファイル\System\FileWatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource.h">
+      <Filter>ソリューションファイル\System\FileWatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text.h">
+      <Filter>ソリューションファイル\System\Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraDebug.cpp">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraPlayer.cpp">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraTitle.cpp">
+      <Filter>ソリューションファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソリューションファイル\System\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\precompile.cpp">
+      <Filter>ソリューションファイル\System\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyBase.cpp">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyManager.cpp">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pumpkin.cpp">
+      <Filter>ソリューションファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>ソリューションファイル\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソリューションファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerBase.cpp">
+      <Filter>ソリューションファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene.cpp">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadScene.cpp">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneController.cpp">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneMain.cpp">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TitleScene.cpp">
+      <Filter>ソリューションファイル\Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PassFilterHDR.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PassGbuffer.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PassLighting.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PassShadow.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FilterGlare.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GBuffer.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shadowmap.cpp">
+      <Filter>ソリューションファイル\System\3DGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base.cpp">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionBase.cpp">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagerBase.cpp">
+      <Filter>ソリューションファイル\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoxCollider.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CapsuleCollider.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColliderResource.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionDetection.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SphereCollider.cpp">
+      <Filter>ソリューションファイル\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuBuffer.cpp">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuCommand.cpp">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuInputLayout.cpp">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuShader.cpp">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuTexture.cpp">
+      <Filter>ソリューションファイル\System\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.cpp">
+      <Filter>ソリューションファイル\System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector.cpp">
+      <Filter>ソリューションファイル\System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGuiFBX.cpp">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshFBX.cpp">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelFBX.cpp">
+      <Filter>ソリューションファイル\System\Model\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelMQO.cpp">
+      <Filter>ソリューションファイル\System\Model\MQO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>ソリューションファイル\System\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPSCounter.cpp">
+      <Filter>ソリューションファイル\System\Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Primitive.cpp">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemRender.cpp">
+      <Filter>ソリューションファイル\System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\OpenFBX\src\miniz.cpp">
+      <Filter>OpenFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\OpenFBX\src\ofbx.cpp">
+      <Filter>OpenFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\examples\imgui_impl_dx11.cpp">
+      <Filter>imgui\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\examples\imgui_impl_win32.cpp">
+      <Filter>imgui\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSource\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileWatcher.cpp">
+      <Filter>ソリューションファイル\System\FileWatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource.cpp">
+      <Filter>ソリューションファイル\System\FileWatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text.cpp">
+      <Filter>ソリューションファイル\System\Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\shader\psFlat.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psModel.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psTexture.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psTonemapping.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\vsModel.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\vsPrim2D.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\vsPrim3D.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psFilterGlare_Luminance.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psFilterGlare.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psGaussianBlur_H.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psGaussianBlur_V.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psTexture_Clamp.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psFilterGlare_Glare.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\csSample.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\csTest.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\csGaussianBlur5x5_H.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psGBuffer.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psLight_Directional.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shader\psIntegrate.fx">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

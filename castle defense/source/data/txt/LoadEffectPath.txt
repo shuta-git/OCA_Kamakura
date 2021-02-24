@@ -1,0 +1,4 @@
+Flame.efk
+hit_eff.efk
+Atmosphere.efk
+Tornade.efk
