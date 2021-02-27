@@ -1,9 +1,0 @@
-１、下記のサイトに移動
-　　https://effekseer.github.io/jp/download.html
-
-２、下記のファイルをダウンロード
-　　Effekseer For DXライブラリ
-
-３、「プリジェクトに追加すべきファイル_VC用」の中身をコピー
-
-４、「dxlib」ファイルに貼り付け
