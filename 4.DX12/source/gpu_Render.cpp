@@ -739,9 +739,9 @@ bool RenderImpl::loadAssets()
     //----------------------------------------------------------
     // PMDの読み込み
     //----------------------------------------------------------
-    pmd_ = gpu::createPMDFromFile("../../../directx12_resource/Model/初音ミク.pmd");
+    pmd_ = gpu::createPMDFromFile("../resource/Model/初音ミク.pmd");
 
-    fbx_ = gpu::createFBXFromFile("../../../directx12_resource/Model/Cerberus_LP.FBX");
+    fbx_ = gpu::createFBXFromFile("../resource/Model/Cerberus_LP.FBX");
     //pmd_->LoadVMDFile("../../../directx12_resource/motion/squat.vmd");
 
     //----------------------------------------------------------

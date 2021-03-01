@@ -716,7 +716,7 @@ void PMDImpl::MaterialLoadTextureFromFile()
         //-----------------------------------------------------------------------
         // トゥーンリソースの読み込み
         //-----------------------------------------------------------------------
-        std::string toonFilePath = "../../../directx12_resource/Data/";
+        std::string toonFilePath = "../resource/Data/";
         char        toonFileName[32];
         sprintf(toonFileName, "toon/toon%02d.bmp", desc_.pmdMaterials_[i].toonIdx + 1);
         toonFilePath += toonFileName;

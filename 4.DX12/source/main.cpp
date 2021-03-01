@@ -145,7 +145,7 @@ int run()
     // ウィンドウサイズをUIサイズを考慮して補正
     //----------------------------------------------------------
     {
-        RECT windowRect{ 0, 0, 1280, 720 };
+        RECT windowRect{ 0, 0, 1920, 1080 };
 
         AdjustWindowRectEx(&windowRect, style, false, styleEx);
         w = windowRect.right - windowRect.left;
@@ -172,7 +172,7 @@ int run()
     //-----------------------------------------------------------------------
     // 初期化
     //-----------------------------------------------------------------------
-    if(!gpu::render()->initialize(1280, 720)) {
+    if(!gpu::render()->initialize(1920, 1080)) {
         return false;
     }
 
