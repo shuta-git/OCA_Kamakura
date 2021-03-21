@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>プレイリスト</title>
+	<trackList>
+		<track>
+			<location>file:///C:/Users/cre/Videos/Captures/MARIO%20MAKER%20ORIGINAL%21%21_1.mp4</location>
+			<title>プログラミング言語 基礎</title>
+			<creator>Microsoft Game DVR</creator>
+			<duration>13802</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/cre/Videos/Captures/MARIO%20MAKER%20ORIGINAL!!_1.mp4</location>
+			<title>プログラミング言語 基礎</title>
+			<creator>Microsoft Game DVR</creator>
+			<duration>13802</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>file-caching=300</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/cre/Videos/Captures/MARIO%20MAKER%20ORIGINAL!!_2.mp4</location>
+			<title>プログラミング言語 基礎</title>
+			<creator>Microsoft Game DVR</creator>
+			<duration>24849</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>file-caching=300</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/cre/Videos/Captures/MARIO%20MAKER%20ORIGINAL!!_3.mp4</location>
+			<title>MARIO MAKER ORIGINAL!!</title>
+			<creator>Microsoft Game DVR</creator>
+			<duration>45639</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>file-caching=300</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+	</extension>
+</playlist>
